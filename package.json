@@ -1,0 +1,29 @@
+{
+  "name": "scraper",
+  "version": "0.0.0",
+  "description": "substackian web scraper",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "cheerio": "~0.12.0"
+  },
+  "devDependencies": {
+    "tape": "~1.0.4"
+  },
+  "scripts": {
+    "test": "node_modules/.bin/tape test/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/oren/scraper.git"
+  },
+  "author": "",
+  "license": "BSD",
+  "readmeFilename": "Readme.md",
+  "gitHead": "b9c0f4dd3da4e0617acbd7317e4f1f692af5632c",
+  "bugs": {
+    "url": "https://github.com/oren/scraper/issues"
+  }
+}
