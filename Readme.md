@@ -1,6 +1,6 @@
 # crawl
 
-substackian web crawler
+substackian web scraper
 
 ![scraper](http://www.seoclerks.com/pics/79583-1.jpg)
 
