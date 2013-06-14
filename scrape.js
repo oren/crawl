@@ -39,7 +39,7 @@ module.exports = function(url, cb) {
 
       data.name = $('.fn.org a').text();
       data.phone = $('.phone').text();
-      data.phone = data.phone.replace(/[^A-Za-z 0-9 \.,\?""!@#\$%\^&\*\(\)-_=\+;:<>\/\\\|\}\{\[\]`~]*/g, '');
+      data.phone = data.phone.replace(/\s/g, '');
 
       cb && cb(null, data);
     });

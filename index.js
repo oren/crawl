@@ -21,7 +21,7 @@ http.get(url, function(res) {
     console.log(name);
 
     var phone = $('.phone').text();
-    phone = phone.replace(/[^A-Za-z 0-9 \.,\?""!@#\$%\^&\*\(\)-_=\+;:<>\/\\\|\}\{\[\]`~]*/g, '');
+    phone = phone.replace(/\s/g, '');
     console.log(phone);
   });
 }).on('error', function(e) {
@@ -31,4 +31,3 @@ http.get(url, function(res) {
 // output:
 // Armstrong Cricket Farm
 // (318) 387-6000
-
